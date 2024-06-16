@@ -1,0 +1,57 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+#navigaciq {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.buton{
+    text-decoration: none;
+    color: black;
+}
+.buton:hover {
+    font-size: large;
+}
+.informaciakutiq {
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+#snimka1 {
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+#tekst1 {
+    text-align: right;
+    padding-right: 10px;
+}
+#snimka2 {
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: 10px;
+    padding-right: 50%;
+}
+#tekst2 {
+    text-align: left;
+    padding-left: 10px;
+}
+#zaglavie {
+    text-align: center;
+    background-color: green;
+    padding: 25px;
+    margin: 0;
+}
