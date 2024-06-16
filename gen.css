@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+#navigaciq {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navigaciq-5 {
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.buton {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.buton:hover {
+    font-size: 1.2em;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.informaciakutiq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.informaciakutiq img {
+    max-width: 100%; /* Make images responsive within their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Ensure images fill the container without distortion */
+}
+
+#tekst1, #tekst2, #tekst3, #tekst4, #tekst5, #tekst6 {
+    text-align: justify;
+    padding: 20px;
+}
+
+#zaglavie {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
